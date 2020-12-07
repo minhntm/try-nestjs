@@ -13,7 +13,7 @@ import { UserRepository } from './user.repository';
     JwtModule.register({
       secret: 'mySecret',
       signOptions: {
-        expiresIn: 3600,
+        expiresIn: 3600*24*30,
       },
     }),
     TypeOrmModule.forFeature([UserRepository]),
