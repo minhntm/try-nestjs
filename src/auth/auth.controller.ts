@@ -1,7 +1,6 @@
 import { Body, Controller, Post, UsePipes, ValidationPipe } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { AuthCredentialsDto } from './dto/auth-credentials-dto';
-import { JwtPayload } from './interface/jwt-payload.interface';
 import { JwtResponse } from './interface/jwt-response.interface';
 
 @Controller('auth')
