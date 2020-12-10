@@ -1,5 +1,5 @@
-import { User } from "src/auth/auth.entity";
 import { BaseEntity, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { User } from "../auth/auth.entity";
 import { TaskStatus } from "./task-status.enum";
 
 @Entity()
